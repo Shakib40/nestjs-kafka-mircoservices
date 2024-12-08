@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs (compiled files)
+dist/
+build/
+
+# Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+~$*
+*.bak
+
+# Coverage reports (if using testing tools)
+coverage/
+*.lcov
+
+# Specific to NestJS
+*.tsbuildinfo
+
+# Ignore files for individual services
+api-gateway/.env
+api-gateway/dist/
+api-gateway/node_modules/
+order/.env
+order/dist/
+order/node_modules/
+
+# Ignore test files (optional)
+test/
