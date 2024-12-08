@@ -1,0 +1,6 @@
+npm install @nestjs/microservices kafkajs
+
+
+
+docker-compose build
+
